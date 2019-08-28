@@ -130,7 +130,7 @@ function parseSpotifyResponse(spotifyResponseTracks){
     };
 };
 
-function spotifySongSearch(){
+function getSongDetails(){
 
     searchTerm = (searchTerm ? searchTerm : "The Sign")
 
@@ -163,7 +163,7 @@ case "concert-this":
     break;
 
 case "spotify-this-song":
-    spotifySongSearch();
+    getSongDetails();
     break;
 
 case "movie-this": 
